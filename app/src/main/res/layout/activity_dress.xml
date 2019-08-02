@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dress"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo5"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp"
+                    card_view:contentPadding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/siji"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/abc" />
+
+                        <TextView
+                            android:id="@+id/judul1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/siji"
+                            android:text="Yellow Navy Dress"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/judul1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/siji"
+                            android:text="SKU: YELLOWNAVYDRESS"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/hargasiji"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/siji"
+                            android:text="Rp. 330.000,00"
+                            android:textColor="@color/pinkpastel"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/hargasiji"
+                            android:background="@drawable/round"
+                            android:text="ORDER"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp" />
+
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp"
+                    card_view:contentPadding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/two"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/def" />
+
+                        <TextView
+                            android:id="@+id/judul2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/two"
+                            android:text="Dark Navy Dress"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/judul2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/two"
+                            android:text="SKU: DARKNAVYDRESS"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/hargatwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/two"
+                            android:text="Rp. 330.000,00"
+                            android:textColor="@color/pinkpastel"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/hargatwo"
+                            android:background="@drawable/round"
+                            android:text="ORDER"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp" />
+
+                        <Button
+                            android:id="@+id/btn6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardMaxElevation="6dp"
+                    card_view:contentPadding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/three"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/ghi" />
+
+                        <TextView
+                            android:id="@+id/judulthree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/three"
+                            android:text="Bright Red Dress"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/judulthree"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/three"
+                            android:text="SKU: BRIGHTREDDRESS"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/harga3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/three"
+                            android:text="Rp. 330.000,00"
+                            android:textColor="@color/pinkpastel"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/harga3"
+                            android:background="@drawable/round"
+                            android:text="ORDER"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp" />
+
+                        <Button
+                            android:id="@+id/btn7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

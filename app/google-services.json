@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475856071124",
+    "firebase_url": "https://aisha-master.firebaseio.com",
+    "project_id": "aisha-master",
+    "storage_bucket": "aisha-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475856071124:android:20c691a57d271ab8",
+        "android_client_info": {
+          "package_name": "com.shafira.satu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475856071124-37e93tcevp1r54jo7i1tvjsqn8nmk277.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shafira.satu",
+            "certificate_hash": "adafa62e825da8f1bcd78924d40576a44fbe22e1"
+          }
+        },
+        {
+          "client_id": "475856071124-vb7mdat5founm1d75djrpbl1c4unccjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQp7CezgAaqorXOHl0j1ufWRCfNUm-Dzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475856071124-vb7mdat5founm1d75djrpbl1c4unccjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".hijab"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo5"/>
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="10dp"
+                card_view:contentPadding="10dp"
+                card_view:cardElevation="4dp"
+                card_view:cardMaxElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/siji"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/siji"/>
+
+                    <TextView
+                        android:id="@+id/judul1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/siji"
+                        android:layout_marginLeft="10dp"
+                        android:text="Pashmina Arab Calm Gray"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/siji"
+                        android:layout_below="@+id/judul1"
+                        android:layout_marginLeft="10dp"
+                        android:text="SKU: PACGRAY"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/hargasiji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/siji"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rp. 60.000,00"
+                        android:textColor="@color/pinkpastel"
+                        android:textSize="13sp" />
+                    <Button
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@+id/hargasiji"
+                        android:layout_marginLeft="30dp"
+                        android:text="ORDER"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/round" />
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="10dp"
+                card_view:contentPadding="10dp"
+                card_view:cardElevation="4dp"
+                card_view:cardMaxElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/two"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/two"/>
+
+                    <TextView
+                        android:id="@+id/judul2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/two"
+                        android:layout_marginLeft="10dp"
+                        android:text="Pashmina Arab Lady Pink"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/two"
+                        android:layout_below="@+id/judul2"
+                        android:layout_marginLeft="10dp"
+                        android:text="SKU: PALPINK"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/hargatwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/two"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rp. 60.000,00"
+                        android:textColor="@color/pinkpastel"
+                        android:textSize="13sp" />
+                    <Button
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@+id/hargatwo"
+                        android:layout_marginLeft="30dp"
+                        android:text="ORDER"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/round" />
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="10dp"
+                card_view:contentPadding="10dp"
+                card_view:cardElevation="4dp"
+                card_view:cardMaxElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/three"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/four"/>
+
+                    <TextView
+                        android:id="@+id/judulthree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/three"
+                        android:layout_marginLeft="10dp"
+                        android:text="Pashmina Arab Earl Gray"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/judulthree"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/three"
+                        android:text="SKU: PAEARLGRY"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/harga3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/three"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rp. 60.000,00"
+                        android:textColor="@color/pinkpastel"
+                        android:textSize="13sp" />
+                    <Button
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@+id/harga3"
+                        android:layout_marginLeft="30dp"
+                        android:text="ORDER"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="10dp"
+                card_view:contentPadding="10dp"
+                card_view:cardElevation="4dp"
+                card_view:cardMaxElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/four"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/three"/>
+
+                    <TextView
+                        android:id="@+id/judul4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/four"
+                        android:layout_marginLeft="10dp"
+                        android:text="Pashmina Arab Calm Pinky"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/judul4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/four"
+                        android:text="SKU: PAPINK"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/harga4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/four"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rp. 60.000,00"
+                        android:textColor="@color/pinkpastel"
+                        android:textSize="13sp" />
+                    <Button
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@+id/harga4"
+                        android:layout_marginLeft="30dp"
+                        android:text="ORDER"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/round" />
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

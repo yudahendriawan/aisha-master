@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Satu</string>
+    <string name="shafira_rent_car">Shafira Rent Car</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="need_help">Need Help ?</string>
+    <string name="hijab_collection">Hijab Collection</string>
+    <string name="profile">Profile</string>
+    <string name="hijab">Hijab</string>
+    <string name="dresses">Dresses</string>
+    <string name="title_activity_profile1">profile1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="shafira_herlinawati">Shafira Herlinawati</string>
+    <string name="seoul_south_korea">Seoul, South Korea</string>
+</resources>

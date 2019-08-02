@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pacgray">
+
+    <LinearLayout
+        android:id="@+id/psiji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/siji" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/psiji"
+        >
+        <TextView
+            android:id="@+id/pac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:text="Pashmina Arab Calm Gray"/>
+        <TextView
+            android:id="@+id/pac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pac1"
+            android:text="SKU: PACGRAY"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/pac3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. 60.000,00"
+            android:layout_below="@id/pac2"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/pinkpastel"
+            />
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:text="order now"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/pac3"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
